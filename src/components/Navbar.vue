@@ -2,7 +2,7 @@
   <nav class="fixed w-full z-50 transition-all duration-300" :class="isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'">
     <div class="container mx-auto px-6 flex justify-between items-center">
       <!-- Logo -->
-      <div class="text-2xl font-black tracking-tighter uppercase">Ophira</div>
+      <img :src="logoImage" alt="Ophira" class="h-8 w-auto">
       <!-- Desktop Menu -->
       <div class="hidden md:flex items-center space-x-12 pt-5 pb-5">
         <a href="#howitworks" class="text-lg font-medium hover:text-gray-600 transition">How it works</a>
@@ -22,6 +22,8 @@
 </template>
 
 <script setup>
+import logoImage from '../assets/ophiralogo.png'
+
 defineProps({
   isScrolled: {
     type: Boolean,
