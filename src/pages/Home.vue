@@ -6,31 +6,31 @@
     <!-- Mobile Menu Overlay -->
     <MobileMenu :is-open="mobileMenuOpen" @close="mobileMenuOpen = false" />
     
-    <!-- Hero Section -->
+   
     <Hero />
     
-    <!-- Product Description Section -->
+    
     <ProductSection />
     
-    <!-- Video Section -->
+   
     <VideoSection />
     
-    <!-- About / How We Started -->
+    
     <AboutSection />
     
-    <!-- Features -->
+    
     <FeaturesSection />
     
-    <!-- Pricing -->
+    
     <PricingSection />
     
-    <!-- Testimonial -->
+    
     <TestimonialSection />
     
-    <!-- FAQ -->
+    
     <FAQSection />
     
-    <!-- Footer -->
+    
     <FooterSection />
   </div>
 </template>

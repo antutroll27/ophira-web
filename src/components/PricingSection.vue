@@ -1,5 +1,7 @@
 <template>
   <section id="pricing" class="py-24 bg-white">
+    <!-- Separator line -->
+    <div class="border-t border-[#ccf32f] border-opacity-30 pb-15"></div>
     <div class="container mx-auto px-6">
       <div class="text-center max-w-2xl mx-auto mb-16">
         <span class="bg-[#ccf32f] px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-4 inline-block">Pricing</span>

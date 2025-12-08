@@ -4,12 +4,12 @@
       <!-- Logo -->
       <img :src="logoImage" alt="Ophira" class="h-8 w-auto">
       <!-- Desktop Menu -->
-      <div class="hidden md:flex items-center space-x-12 pt-5 pb-5">
-        <a href="#howitworks" class="text-lg font-medium hover:text-gray-600 transition">How it works</a>
-        <a href="#benefits" class="text-lg font-medium hover:text-gray-600 transition">Benefits</a>
-        <a href="#pricing" class="text-lg font-medium hover:text-gray-600 transition">Pricing</a>
-        <a href="#faqs" class="text-lg font-medium hover:text-gray-600 transition">FAQs</a>
-        <button class="bg-black text-white px-5 py-2 rounded-sm text-sm font-semibold hover:bg-gray-800 transition">
+      <div class="hidden md:flex items-center space-x-20 pt-8 pb-2">
+        <a href="#howitworks" class="text-lg font-normal hover:text-gray-600 transition">How it works</a>
+        <a href="#benefits" class="text-lg font-normal hover:text-gray-600 transition">Benefits</a>
+        <a href="#pricing" class="text-lg font-normal hover:text-gray-600 transition">Pricing</a>
+        <a href="#faqs" class="text-lg font-normal hover:text-gray-600 transition">FAQs</a>
+        <button class="bg-black text-[#ccf32f] px-5 py-2 rounded-md text-sm font-semibold hover:bg-gray-800 transition">
           Get Started
         </button>
       </div>

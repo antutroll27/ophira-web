@@ -3,10 +3,10 @@
     <button @click="$emit('close')" class="absolute top-6 right-6 text-2xl">
       <i class="fa-solid fa-xmark"></i>
     </button>
-    <a href="#nft" @click="$emit('close')" class="text-2xl font-bold">NFT</a>
-    <a href="#about" @click="$emit('close')" class="text-2xl font-bold">About</a>
+    <a href="#nft" @click="$emit('close')" class="text-2xl font-bold">How it Works </a>
+    <a href="#about" @click="$emit('close')" class="text-2xl font-bold">Benefits</a>
     <a href="#pricing" @click="$emit('close')" class="text-2xl font-bold">Pricing</a>
-    <a href="#faq" @click="$emit('close')" class="text-2xl font-bold">FAQ</a>
+    <a href="#faq" @click="$emit('close')" class="text-2xl font-bold">FAQs</a>
   </div>
 </template>
 

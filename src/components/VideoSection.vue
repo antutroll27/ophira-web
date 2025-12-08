@@ -1,6 +1,6 @@
 <template>
   <section class="w-full relative">
-    <div class="w-full h-[500px] md:h-[600px] bg-gray-800 relative overflow-hidden group cursor-pointer">
+    <div class="w-full h-[500px] md:h-[750px] bg-gray-800 relative overflow-hidden group cursor-pointer">
       <!-- Placeholder for Video -->
       <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000" class="w-full h-full object-cover opacity-60 transition duration-500 group-hover:scale-105" alt="Video Background">
       <div class="absolute inset-0 flex items-center justify-center">

@@ -1,13 +1,13 @@
 <template>
-  <section id="about" class="py-24 bg-[#ccf32f] overflow-hidden">
+  <section id="about" class="py-55 bg-[#ccf32f] overflow-hidden">
     <div class="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
       <div>
-        <span class="font-bold text-sm uppercase tracking-wider mb-2 block">About us</span>
-        <h2 class="text-4xl md:text-5xl font-black mb-6">How we started</h2>
-        <p class="mb-6 font-medium">
+        <span class="font-bold text-sm uppercase tracking-wider mb-4 block">About us</span>
+        <h2 class="text-4xl md:text-6xl font-black mb-8">How we started</h2>
+        <p class="mb-6 font-light text-lg">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.
         </p>
-        <p class="mb-6 font-medium">
+        <p class="mb-6 font-light text-lg">
           Mauris sed nisi sed libero commodo placerat. In pulvinar nibh ipsum, sit amet hendrerit odio pharetra et.
         </p>
       </div>
