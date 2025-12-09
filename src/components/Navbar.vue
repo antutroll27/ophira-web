@@ -2,9 +2,9 @@
   <nav class="fixed w-full z-50 transition-all duration-300" :class="isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'">
     <div class="container mx-auto px-6 flex justify-between items-center">
       <!-- Logo -->
-      <img :src="logoImage" alt="Ophira" class="h-16 w-auto mt-5">
+      <img :src="logoImage" alt="Ophira" class="h-12 md:h-14 w-auto mt-3 md:mt-4">
       <!-- Desktop Menu -->
-      <div class="hidden md:flex items-center space-x-20 pt-8 pb-2">
+      <div class="hidden md:flex items-center space-x-10 lg:space-x-16 pt-6 md:pt-7 pb-2">
         <a href="#howitworks" class="text-lg font-normal hover:text-gray-600 transition">How it works</a>
         <a href="#benefits" class="text-lg font-normal hover:text-gray-600 transition">Benefits</a>
         <a href="#pricing" class="text-lg font-normal hover:text-gray-600 transition">Pricing</a>
